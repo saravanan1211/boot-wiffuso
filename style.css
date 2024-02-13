@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    margin-left: 600px;
+}
+.nav-item{
+    display: none;
+    text-transform: uppercase;
+    background-color: aqua;
+    text-align: center;
+    font-size: 20px;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 20px;
+   
+}
+.navlinks li{
+    list-style-type: none;
+   
+}
+.navlinks li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+}
+    
+    .navlinks li a:hover{
+        color: white;
+        background-color: black;
+        border-radius: 10px;
+      
+
+    }
+    #two{
+        background-image: url(images/slider-bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+    .ger{
+        margin-top: 150px;
+        color: white;
+    }
+    .serve h1{
+        text-transform: uppercase;
+    }
+    .serve span{
+        color: orangered;
+    }
+    .serve p{
+        font-size: 20px;
+    }
+    .fer-active{
+        width: 80%;
+        height: 200px;
+        gap: 10px;
+        background-color: orangered;
+        color: white;
+       
+    }
+    .fer{
+        width: 80%;
+        height: 200px;
+        gap: 10px;
+        background-color: rgba(17, 16, 16, 0.851);
+        color: white;
+       
+    }
+    .fer:hover{
+        background-color: orangered;
+    }
+    .ver{
+        width: 80%;
+        height: 200px;
+        gap: 10px;
+        background-color: rgba(17, 16, 16, 0.851);
+        color: white;
+       
+    }
+    .ver:hover{
+        background-color: orangered;
+    }
+    .cer button:hover{
+        color: white;
+        background-color: black;
+    }
+    .port h1{
+        text-transform: uppercase;
+    }
+    .port span{
+        color: orangered;
+    }
+    .port p{
+        font-size: 20px;
+    }
+    .ker{
+       background-color: rgba(19, 19, 19, 0.809);
+       width: 100%;
+       height: 120vh;
+    }
+    .back:hover{
+        background-color: orangered;
+    }
+    .menu h1{
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 35px;
+    }
+    .menu h2{
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 35px;
+
+    }
+    .menu span{
+     color: orangered;
+
+    }
+    .menu p{
+        font-size: 20px;
+    }
+    .ler h1{
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 35px;
+    }
+    .ler span{
+        color: orangered;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 35px;
+
+    }
+    .ler p{
+        font-size: 20px;
+    }
+    .comp{
+        background-image: url(images/agency-img.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height:600px;
+        margin-top: 100px;
+    }
+    .slice{
+        color: white;
+        margin-left: 20%;
+        
+    }
+    .slice h1{
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 35px;
+
+    }
+    .slice span{
+        color: orangered;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 35px;
+
+    }
+    .slice p{
+        font-size: 20px;
+
+    }
+    .con h1{
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 35px;
+
+    }
+    .con span{
+        color: orangered;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 35px;
+
+    }
+    .label{
+        text-align: center;
+      
+      
+    }
+    .label input{
+        margin-top: 40px;
+        width: 50%;
+        height: 50px;
+        padding: 20px;
+        text-transform: capitalize;
+
+    }
+    .her input{
+        height: 100px;
+        text-transform: capitalize;
+    }
+    .copy-1 h1{
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 35px;
+    }
+    .copy-1 span{
+        color: orangered;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 35px;
+
+    }
+    .map{
+        margin-top: 40px;
+    }
+    .phe{
+        width: 80%;
+        height: 200px;
+    }
+    .phe img{
+      width: 40%;
+      height: 80px;
+        margin-left: 100px;
+      
+    
+    }
+   
+   
+    
+   
+@media (max-width:600px) {
+    .nav-item{
+        display: block;
+    }
+    .navbar-brand{
+        margin-left: 40px;
+    }
+    .navlinks{
+        display: none;
+    }
+    #two{
+        height: auto;
+    }
+    .ker{
+        height: auto;
+    }
+    .slice{
+        margin-left: auto;
+    }
+    .phe img{
+        margin-left: auto;
+    }
+   
+   
+   
+    
+    
+}
